@@ -16,7 +16,7 @@
 <body>
   <!-- navbar in css -->
 
-  <nav>
+  <nav class="main-nav">
     <div class="nav-bar">
       <i class='bx bx-menu sidebarOpen'></i>
       <span class="logo navLogo"><a href="#">Open Library</a></span>
@@ -31,7 +31,8 @@
           <li><a href="#">Home</a></li>
           <li><a href="#testimonials">testimonial</a></li>
           <li>
-            <a href="#">Categories</a>
+            <a href="#">Categories</a></li>
+          <li><a href="#cta">Sign up</a></li>
             <!-- <input class="text-box" type="text" placeholder="Select on" readonly>
                         <div class="options">
                           <div onclick="show('HTML')">HTML</div>
@@ -228,8 +229,72 @@
       </div>
     </section>
 
+<!-- call to action -->
+
+    <section class="section-cta" id="cta">
+      <div class="container">
+        <div class="cta">
+          <div class="cta-text-box">
+            <h2 class="heading-secondary">Get your first book for free!</h2>
+            <p class="cta-text">
+              Engaging, gripping and well-edited free books are waiting for you. Start
+              your reading journey today. You can cancel or pause anytime. And the
+              first book is on us!
+            </p>
+
+            <form class="cta-form" action="#">
+              <div>
+                <label for="full-name">Full Name</label>
+                <input
+                  id="full-name"
+                  type="text"
+                  placeholder="John Smith"
+                  required
+                />
+              </div>
+
+              <div>
+                <label for="email">Email address</label>
+                <input
+                  id="email"
+                  type="email"
+                  placeholder="me@example.com"
+                  required
+                />
+              </div>
+
+              <div>
+                <label for="select-where">Where did you hear from us?</label>
+                <select id="select-where" required>
+                  <option value="">Please choose one option:</option>
+                  <option value="friends">Friends and family</option>
+                  <option value="youtube">YouTube video</option>
+                  <option value="podcast">Podcast</option>
+                  <option value="ad">Facebook ad</option>
+                  <option value="others">Others</option>
+                </select>
+              </div>
+
+              <button class="btn btn--form">Sign up now</button>
+
+              <!-- <input type="checkbox" />
+              <input type="number" /> -->
+            </form>
+          </div>
+          <div
+            class="cta-img-box"
+            role="img"
+            aria-label="people enjoying reading book"
+          ></div>
+        </div>
+      </div>
+
+    </section>
+
 
     <!-- footer section -->
+    <div class="footer">
+
     <div class="flex ">
       <div class="no-list-style ul li">
         <ul class="">
@@ -289,17 +354,18 @@
           <li><a href="">Hrvatski (hr)</a></li>
           <li><a href="">తెలుగు (te)</a></li>
 
-
+         
         </ul>
       </div>
     </div>
-    <div class="position"> <i class="fa-solid fa-warehouse"></i> Open Library is an initiative of the <a
+
+    <div class="position fix"> <i class="fa-solid fa-warehouse"></i> Open Library is an initiative of the <a
         href="">Internet Archive</a> , a 501(c)(3) non-profit, building a digital library of Internet sites and other
       <br> cultural artifacts in digital form. Other <a href=""> projects</a> include the <a href="">Wayback Machine</a>
       , <a href="">archive.org</a> and <a href="">archive-it.org</a> </div>
 
 
-
+</div>
     <script src="script.js"></script>
 </body>
 

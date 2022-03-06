@@ -1,0 +1,327 @@
+{
+    "Fiction": [
+             "bookname":The Bad guys {
+                   <img src="https://archive.org/services/img/badguysepisode120000blab" alt=""> 
+           },
+            "bookName1": We are All Good People Here {
+                   <img src="https://covers.openlibrary.org/b/olid/OL27259293M-M.jpg" alt="">
+           }
+
+           "bookename2": When the World Was Ours{
+               <img src="https://covers.openlibrary.org/b/olid/OL32551125M-M.jpg" alt="">
+           }
+           "bookname3" : An Orphan’s Wish{
+               <img src="https://covers.openlibrary.org/b/olid/OL32166612M-M.jpg" alt="">
+           } 
+           "bookname": Gone With the Wind {
+            <img src="https://covers.openlibrary.org/b/olid/OL30148935M-M.jpg" alt="">
+           },
+           "bookname":"The Mountain sing" {
+            <img src="https://covers.openlibrary.org/b/olid/OL28303508M-M.jpg" alt=""> 
+           },
+           "bookName1":A thousand ships {
+            <img src="https://covers.openlibrary.org/b/olid/OL28346189M-M.jpg" alt="">
+           }
+           "bookName1": The Lost World {
+            <img src="https://covers.openlibrary.org/b/olid/OL35718441M-M.jpg" alt=""> 
+           }
+           "bookName1":The Girl Who Drank the Moon{
+            <img src="https://covers.openlibrary.org/b/olid/OL26233073M-M.jpg" alt="">
+           }
+           "bookName1": The Paris apartment{
+            <img src="https://covers.openlibrary.org/b/olid/OL32916318M-M.jpg" alt=""> 
+         }
+      ]
+    "Thriller":[ 
+             "bookname": Bazaar of bad dreams {
+                 <img src="https://covers.openlibrary.org/w/id/8362335-M.jpg" alt="">
+             }
+             "bookname": Misery {
+                <img src="https://covers.openlibrary.org/w/id/8259296-M.jpg" alt="">
+            } 
+            "bookname": Cell {
+                <img src="https://covers.openlibrary.org/w/id/8288254-M.jpg" alt="">
+            } 
+            "bookname": Just after Sunset {
+                <img src="https://covers.openlibrary.org/w/id/8494916-M.jpg" alt="">
+            } 
+            "bookname":The Bear and the dragon {
+                <img src="https://covers.openlibrary.org/w/id/9153760-M.jpg" alt="">
+            } 
+            "bookname": Insomnia {
+                <img src="https://covers.openlibrary.org/w/id/7886954-M.jpg" alt="">
+            } 
+            "bookname": Under The Dome {
+                <img src="https://covers.openlibrary.org/w/id/8275695-M.jpg" alt="">
+            } 
+            "bookname": Differrent Seasons {
+                <img src="https://covers.openlibrary.org/b/id/8288253-M.jpg" alt="">
+            } 
+            "bookname": The green Mile {
+                <img src="https://covers.openlibrary.org/b/id/9334655-M.jpg" alt="">
+            } 
+            "bookname": Iceberg {
+                <img src="https://covers.openlibrary.org/b/id/272864-M.jpg" alt="">
+            }      
+            
+    ] 
+    "Romance":[          
+            "bookname":Flatmates {
+                 <img src="https://covers.openlibrary.org/b/id/2397058-M.jpg" alt="">
+            }
+            "bookname":The Boy of my Dreams {
+                <img src="https://covers.openlibrary.org/b/id/10735363-M.jpg" alt="">
+           }
+           "bookname": The Doorway to Forever {
+                 <img src="https://covers.openlibrary.org/b/id/3061760-M.jpg" alt="">
+            }
+            "bookname": Jane Airhead {
+                <img src="https://covers.openlibrary.org/b/id/6303063-M.jpg" alt="">
+           }
+           "bookname": A Soul so Wicked{
+                 <img src="https://covers.openlibrary.org/b/id/8002221-M.jpg" alt="">
+            }
+            "bookname": A Midsemester Nights Dream {
+                <img src="https://covers.openlibrary.org/b/id/625611-M.jpg" alt="">
+           }
+           "bookname":The Hot Blue Sea{
+                 <img src="https://covers.openlibrary.org/b/id/9708207-M.jpg" alt="">
+            }  
+            "bookname":The white swan {
+                <img src="https://covers.openlibrary.org/b/id/8038311-M.jpg" alt="">
+           }
+           "bookname":Wicked Sacrifice {
+                 <img src="https://covers.openlibrary.org/w/id/764382-M.jpg" alt="">
+            }
+            "bookname":Smitten Book club {
+                <img src="https://covers.openlibrary.org/w/id/10344070-M.jpg" alt="">
+           }
+    ] 
+    Kids[
+         [          
+            "bookname":Zoe's Jungle{
+                 <img src="https://covers.openlibrary.org/w/id/7887873-M.jpg" alt="">
+            }
+            "bookname":Lexi The firefly Fairy {
+                <img src="https://covers.openlibrary.org/w/id/9251528-M.jpg" alt="">
+           }
+           "bookname": Sky Camp {
+                 <img src="https://covers.openlibrary.org/w/id/7415249-M.jpg" alt="">
+            }
+            "bookname": The Witches' supermarket {
+                <img src="https://covers.openlibrary.org/w/id/8228163-M.jpg" alt="">
+           }
+           "bookname": Skiing for the Prize{
+                 <img src="https://covers.openlibrary.org/w/id/9521942-M.jpg" alt="">
+            }
+            "bookname": Elmer {
+                <img src="https://covers.openlibrary.org/w/id/2989678-M.jpg" alt="">
+           }
+           "bookname": Harry Potter and the Prisoner of Azkaban{
+                 <img src="https://covers.openlibrary.org/w/id/10580435-M.jpg" alt="">
+            }  
+            "bookname": One small Dog{
+                <img src="https://covers.openlibrary.org/b/id/1340125-M.jpg" alt="">
+           }
+           "bookname": Just a little music{
+                 <img src="https://covers.openlibrary.org/b/id/8171095-M.jpg" alt="">
+            }
+            "bookname":Wayership Down {
+                <img src="https://covers.openlibrary.org/b/id/10139238-M.jpg" alt="">
+           }
+    ]
+    Textbooks
+            [          
+            "bookname":Calculus{
+                 <img src="https://covers.openlibrary.org/w/id/602202-M.jpg" alt="">
+            }
+            "bookname":Probability and Statistics{
+                <img src="https://covers.openlibrary.org/w/id/363989-M.jpg" alt="">
+           }
+           "bookname":  Physical Geology{
+                 <img src="https://covers.openlibrary.org/w/id/4247562-M.jpg" alt="">
+            }
+            "bookname": Basic concepts of Chemistry {
+                <img src="https://covers.openlibrary.org/w/id/302083-M.jpg" alt="">
+           }
+           "bookname":Basic Statistical Analysis {
+                 <img src="https://covers.openlibrary.org/w/id/1145749-M.jpg" alt="">
+            }
+            "bookname":Advance Organic Chemistry {
+                <img src="https://covers.openlibrary.org/b/id/2357535-M.jpg" alt="">
+           }
+           "bookname":Astronomy {
+                 <img src="https://covers.openlibrary.org/w/id/1083921-M.jpg" alt="">
+            }  
+            "bookname": Analytical Geometry{
+                <img src="https://covers.openlibrary.org/w/id/9693473-M.jpg" alt="">
+           }
+           "bookname":Elements of Biology {
+                 <img src="https://covers.openlibrary.org/b/id/6493841-M.jpg" alt="">
+            }
+            "bookname": Intermediate Algebra{
+                <img src="https://covers.openlibrary.org/b/id/1112971-M.jpg" alt="">
+           } 
+    ]
+    History[          
+            "bookname":Pride and Prejudice{
+                 <img src="https://covers.openlibrary.org/b/id/12648793-M.jpg" alt="">
+            }
+            "bookname":Tom Sawyer{
+                <img src="https://covers.openlibrary.org/b/id/7103517-M.jpg" alt="">
+           }
+           "bookname": The Wonderful Wizard of oz {
+                 <img src="https://covers.openlibrary.org/b/id/12648655-M.jpg" alt="">
+            }
+            "bookname": The Call of the Wild {
+                <img src="https://covers.openlibrary.org/b/id/8236400-M.jpg" alt="">
+           }
+           "bookname":Anotny and Cleopatra{
+                 <img src="https://covers.openlibrary.org/b/id/8222096-M.jpg" alt="">
+            }
+            "bookname": On the Natre of things{
+                <img src="https://covers.openlibrary.org/b/id/566208-M.jpg" alt="">
+           }
+           "bookname": A Tale of Two cities{
+                 <img src="https://covers.openlibrary.org/b/id/8493590-M.jpg" alt="">
+            }  
+            "bookname": White Fang{
+                <img src="https://covers.openlibrary.org/b/id/8236920-M.jpg" alt="">
+           }
+           "bookname": Manifest of the Communist Party {
+                 <img src="https://covers.openlibrary.org/b/id/8493590-M.jpg" alt="">
+            }
+            "bookname": David Copperfield {
+                <img src="https://covers.openlibrary.org/b/id/9282657-M.jpg" alt="">
+           } 
+    ]
+    Science fiction[          
+            "bookname":Ninetheen Eighty four{
+                 <img src="https://covers.openlibrary.org/b/id/9267242-M.jpg" alt="">
+            }
+            "bookname":The Invisible man{
+                <img src="https://covers.openlibrary.org/b/id/6419199-M.jpg" alt="">
+           }
+           "bookname": The Lost World {
+                 <img src="https://covers.openlibrary.org/b/id/8231444-M.jpg" alt="">
+            }
+            "bookname": When the sleeper Awakes {
+                <img src="https://covers.openlibrary.org/b/id/830198-M.jpg" alt="">
+           }
+           "bookname": The Iron heel{
+                 <img src="https://covers.openlibrary.org/b/id/8243314-M.jpg" alt="">
+            }
+            "bookname": Dune  {
+                <img src="https://covers.openlibrary.org/b/id/12375564-M.jpg" alt="">
+           }
+           "bookname": The First Men in the moon {
+                 <img src="https://covers.openlibrary.org/b/id/8081288-M.jpg" alt="">
+            }  
+            "bookname":2001 a space odyssey {
+                <img src="https://covers.openlibrary.org/b/id/2156133-M.jpg" alt="">
+           }
+           "bookname": Ender's Game{
+                 <img src="https://covers.openlibrary.org/b/id/8303020-M.jpg" alt="">
+            }
+            "bookname": The Wrinkle in time{
+                <img src="https://covers.openlibrary.org/b/id/8709146-M.jpg" alt="">
+           } 
+    ]
+    Fantasy[          
+            "bookname":The Hobbit{
+                 <img src="https://covers.openlibrary.org/b/id/8406786-M.jpg" alt="">
+            }
+            "bookname":The little prince{
+                <img src="" alt="">
+           }
+           "bookname": Around the world in eighty days {
+                 <img src="https://covers.openlibrary.org/b/id/6976035-M.jpg" alt="">
+            }
+            "bookname":The Two Towers  {
+                <img src="https://covers.openlibrary.org/b/id/8167231-M.jpg" alt="">
+           }
+           "bookname":The Return of the King{
+                 <img src="https://covers.openlibrary.org/b/id/10523169-M.jpg" alt="">
+            }
+            "bookname": The Fellowship of the Ring  {
+                <img src="https://covers.openlibrary.org/b/id/8474036-M.jpg" alt="">
+           }
+           "bookname": The wind in the willows{
+                 <img src="The wind in the willows" alt="">
+            }  
+            "bookname": Prince Caspian
+            {
+                <img src="https://covers.openlibrary.org/b/id/45897-M.jpg" alt="">
+           }
+           "bookname": The Secret Agent{
+                 <img src="https://covers.openlibrary.org/b/id/8239401-M.jpg" alt="">
+            }
+            "bookname":The magician's nephew {
+                <img src="https://covers.openlibrary.org/b/id/1072931-M.jpg" alt="">
+           } 
+    ]
+    Mystery and Detective Series[          
+            "bookname":The Adventures of Sherlock Holmes{
+                 <img src="https://covers.openlibrary.org/b/id/6717853-M.jpg" alt="">
+            }
+            "bookname":The Sign of Four{
+                <img src="https://covers.openlibrary.org/b/id/9247987-M.jpg" alt="">
+           }
+           "bookname": The ABC murders {
+                 <img src="https://covers.openlibrary.org/b/id/10252236-M.jpg" alt="">
+            }
+            "bookname": Nemesis {
+                <img src="https://covers.openlibrary.org/b/id/9194-M.jpg" alt="">
+           }
+           "bookname": The Complete Sherlock Holmes{
+                 <img src="https://covers.openlibrary.org/b/id/12501284-M.jpg" alt="">
+            }
+            "bookname": The rainmaker{
+                <img src="https://covers.openlibrary.org/b/id/9322929-M.jpg" alt="">
+           }
+           "bookname":Red Dragon {
+                 <img src="https://covers.openlibrary.org/b/id/6997898-M.jpg" alt="">
+            }  
+            "bookname": The gold bug{
+                <img src="https://covers.openlibrary.org/b/id/11777143-M.jpg" alt="">
+           }
+           "bookname": The confidential agent{
+                 <img src="https://covers.openlibrary.org/b/id/97527-M.jpg" alt="">
+            }
+            "bookname":Five on a Treasure Island {
+                <img src="https://covers.openlibrary.org/b/id/2396777-M.jpg" alt="">
+           } 
+    ]
+    Art[          
+            "bookname":Picasso{
+                 <img src="https://covers.openlibrary.org/b/id/2238306-M.jpg" alt="">
+            }
+            "bookname":Paul Klee{
+                <img src="https://openlibrary.org/works/OL972930W" alt="">
+           }
+           "bookname":Henry Moore  {
+                 <img src="https://covers.openlibrary.org/b/id/8236963-M.jpg" alt="">
+            }
+            "bookname": Max Ernst {
+                <img src="https://covers.openlibrary.org/b/id/7879121-M.jpg" alt="">
+           }
+           "bookname": Leonardo.{
+                 <img src="https://covers.openlibrary.org/b/id/4898540-M.jpg" alt="">
+            }
+            "bookname": Van Gogh{
+                <img src="https://covers.openlibrary.org/b/id/773443-M.jpg" alt="">
+           }
+           "bookname": Edvard Munch{
+                 <img src="https://covers.openlibrary.org/b/id/6748093-M.jpg" alt="">
+            }  
+            "bookname":The temptation of St. Anthony {
+                <img src="https://covers.openlibrary.org/b/id/10507043-M.jpg" alt="">
+           }
+           "bookname": Michelangelo{
+                 <img src="https://covers.openlibrary.org/b/id/8244489-M.jpg" alt="">
+            }
+            "bookname":The crown of wild olive {
+                <img src="https://covers.openlibrary.org/b/id/8244557-M.jpg" alt="">
+           } 
+    
+  }

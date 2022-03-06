@@ -2,37 +2,37 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Open Libary</title>
-    <link rel="stylesheet" href="style.css">
-    <!-- ===== Boxicons for ICONS ===== -->
-    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
-    <script src="https://kit.fontawesome.com/e347bc87e4.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Open Libary</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- ===== Boxicons for ICONS ===== -->
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+  <script src="https://kit.fontawesome.com/e347bc87e4.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <!-- navbar in css -->
+  <!-- navbar in css -->
 
-    <nav>
-        <div class="nav-bar">
-            <i class='bx bx-menu sidebarOpen'></i>
-            <span class="logo navLogo"><a href="#">Open Library</a></span>
+  <nav>
+    <div class="nav-bar">
+      <i class='bx bx-menu sidebarOpen'></i>
+      <span class="logo navLogo"><a href="#">Open Library</a></span>
 
-            <div class="menu">
-                <div class="logo-toggle">
-                    <span class="logo"><a href="#">Open Library</a></span>
-                    <i class='bx bx-x siderbarClose'></i>
-                </div>
+      <div class="menu">
+        <div class="logo-toggle">
+          <span class="logo"><a href="#">Open Library</a></span>
+          <i class='bx bx-x siderbarClose'></i>
+        </div>
 
-                <ul class="nav-links">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li>
-                        <a href="#">Categories</a>
-                        <!-- <input class="text-box" type="text" placeholder="Select on" readonly>
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#testimonials">testimonial</a></li>
+          <li>
+            <a href="#">Categories</a>
+            <!-- <input class="text-box" type="text" placeholder="Select on" readonly>
                         <div class="options">
                           <div onclick="show('HTML')">HTML</div>
                           <div onclick="show('CSS')">CSS</div>
@@ -41,115 +41,108 @@
                     <li><a href="#">Services</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul> -->
-            </div>
+      </div>
 
-            <div class="darkLight-searchBox">
-                <div class="dark-light">
-                    <i class='bx bx-moon moon'></i>
-                    <i class='bx bx-sun sun'></i>
-                </div>
-
-                <div class="searchBox">
-                    <div class="searchToggle">
-                        <i class='bx bx-x cancel'></i>
-                        <i class='bx bx-search search'></i>
-                    </div>
-
-                    <div class="search-field">
-                        <input type="text" placeholder="Search...">
-                        <i class='bx bx-search'></i>
-                    </div>
-                </div>
-            </div>
+      <div class="darkLight-searchBox">
+        <div class="dark-light">
+          <i class='bx bx-moon moon'></i>
+          <i class='bx bx-sun sun'></i>
         </div>
-    </nav>
 
-    <script>
+        <div class="searchBox">
+          <div class="searchToggle">
+            <i class='bx bx-x cancel'></i>
+            <i class='bx bx-search search'></i>
+          </div>
 
-        const body = document.querySelector("body"),
-            nav = document.querySelector("nav"),
-            modeToggle = document.querySelector(".dark-light"),
-            searchToggle = document.querySelector(".searchToggle"),
-            sidebarOpen = document.querySelector(".sidebarOpen"),
-            siderbarClose = document.querySelector(".siderbarClose");
+          <div class="search-field">
+            <input type="text" placeholder="Search...">
+            <i class='bx bx-search'></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
 
-        let getMode = localStorage.getItem("mode");
-        if (getMode && getMode === "dark-mode") {
-            body.classList.add("dark");
-        }
+  <script>
 
-        // js code to toggle dark and light mode
-        modeToggle.addEventListener("click", () => {
-            modeToggle.classList.toggle("active");
-            body.classList.toggle("dark");
+    const body = document.querySelector("body"),
+      nav = document.querySelector("nav"),
+      modeToggle = document.querySelector(".dark-light"),
+      searchToggle = document.querySelector(".searchToggle"),
+      sidebarOpen = document.querySelector(".sidebarOpen"),
+      siderbarClose = document.querySelector(".siderbarClose");
 
-            // js code to keep user selected mode even page refresh or file reopen
-            if (!body.classList.contains("dark")) {
-                localStorage.setItem("mode", "light-mode");
-            } else {
-                localStorage.setItem("mode", "dark-mode");
-            }
-        });
+    let getMode = localStorage.getItem("mode");
+    if (getMode && getMode === "dark-mode") {
+      body.classList.add("dark");
+    }
 
-        // js code to toggle search box
-        searchToggle.addEventListener("click", () => {
-            searchToggle.classList.toggle("active");
-        });
+    // js code to toggle dark and light mode
+    modeToggle.addEventListener("click", () => {
+      modeToggle.classList.toggle("active");
+      body.classList.toggle("dark");
+
+      // js code to keep user selected mode even page refresh or file reopen
+      if (!body.classList.contains("dark")) {
+        localStorage.setItem("mode", "light-mode");
+      } else {
+        localStorage.setItem("mode", "dark-mode");
+      }
+    });
+
+    // js code to toggle search box
+    searchToggle.addEventListener("click", () => {
+      searchToggle.classList.toggle("active");
+    });
 
 
-        //   js code to toggle sidebar
-        sidebarOpen.addEventListener("click", () => {
-            nav.classList.add("active");
-        });
+    //   js code to toggle sidebar
+    sidebarOpen.addEventListener("click", () => {
+      nav.classList.add("active");
+    });
 
-        body.addEventListener("click", e => {
-            let clickedElm = e.target;
+    body.addEventListener("click", e => {
+      let clickedElm = e.target;
 
-            if (!clickedElm.classList.contains("sidebarOpen") && !clickedElm.classList.contains("menu")) {
-                nav.classList.remove("active");
-            }
-        });
+      if (!clickedElm.classList.contains("sidebarOpen") && !clickedElm.classList.contains("menu")) {
+        nav.classList.remove("active");
+      }
+    });
 
-        function show(value) {
-            document.querySelector(".text-box").value = value;
-        }
+    function show(value) {
+      document.querySelector(".text-box").value = value;
+    }
 
-        let dropdown = document.querySelector(".dropdown")
-        dropdown.onclick = function () {
-            dropdown.classList.toggle("active")
-        }
+    let dropdown = document.querySelector(".dropdown")
+    dropdown.onclick = function () {
+      dropdown.classList.toggle("active")
+    }
 
-    </script>
-    <!-- main section -->
-    <div id="sam"></div>
-    <!-- Testimonials section -->
-  
-  <section class="testimonial">
+  </script>
+  <!-- main section -->
+  <div id="sam"></div>
+  <!-- Testimonials section -->
+
+  <section class="testimonial" id="testimonials">
     <section class="section-testimonials">
-        <div class="testimonials-container">
-          <span class="subheading">Testimonials</span>
-          <h2 class="heading-secondary">The word belong to those who read!</h2>
+      <div class="testimonials-container">
+        <span class="subheading">Testimonials</span>
+        <h2 class="heading-secondary">The word belong to those who read!</h2>
 
         <div class="testimonials">
           <figure class="testimonial">
-            <img
-              class="testimonial-img"
-              alt="Photo of customer Dave Jose"
-              src="img/customers/dave.jpg">
-              
+            <img class="testimonial-img" alt="Photo of customer Dave Jose" src="img/customers/dave.jpg">
+
             <blockquote class="testimonial-text">
-              Open library is awesome!,I have been looking for  Bhagwad Gita for 3 different languages.
+              Open library is awesome!,I have been looking for Bhagwad Gita for 3 different languages.
               The results it gave me has very simple trasnlation for all three languages. Avid subscription is awesome!
             </blockquote>
             <p class="testimonial-name">&mdash; Dave Jose</p>
           </figure>
 
           <figure class="testimonial">
-            <img
-              class="testimonial-img"
-              alt="Photo of customer Ben Hadley"
-              src="img/customers/ben.jpg"
-            />
+            <img class="testimonial-img" alt="Photo of customer Ben Hadley" src="img/customers/ben.jpg" />
             <blockquote class="testimonial-text">
               The AI algorithm is crazy good, it chooses the right books for
               me every time. It's amazing you don't have to worry about books you want read to anymore!
@@ -158,24 +151,17 @@
           </figure>
 
           <figure class="testimonial">
-            <img
-              class="testimonial-img"
-              alt="Photo of customer Steve Miller"
-              src="img/customers/steve.jpg"
-            />
+            <img class="testimonial-img" alt="Photo of customer Steve Miller" src="img/customers/steve.jpg" />
             <blockquote class="testimonial-text">
               Open library is a time saver! I just started a company, so there's
-              no time for reading bedtime stories to my daughter. Open library suggest me book for every mood of my child in just few clicks!
+              no time for reading bedtime stories to my daughter. Open library suggest me book for every mood of my
+              child in just few clicks!
             </blockquote>
             <p class="testimonial-name">&mdash; Steve Miller</p>
           </figure>
 
           <figure class="testimonial">
-            <img
-              class="testimonial-img"
-              alt="Photo of customer Hannah Smith"
-              src="img/customers/hannah.jpg"
-            />
+            <img class="testimonial-img" alt="Photo of customer Hannah Smith" src="img/customers/hannah.jpg" />
             <blockquote class="testimonial-text">
               I got open library for the whole family, and it frees up so much
               time! Plus, everything here is so paperless, eye catchy and refreshing.
@@ -187,162 +173,133 @@
 
       <div class="gallery">
         <figure class="gallery-item">
-          <img
-            src="img/gallery/book1-bhagwad Gita.jpg"
-            alt="Photo of beautifully
-          arranged book"
-          />
+          <img src="img/gallery/book1-bhagwad Gita.jpg" alt="Photo of beautifully
+          arranged book" />
           <!-- <figcaption>Caption</figcaption> -->
         </figure>
         <figure class="gallery-item">
           <img
             src="https://images.unsplash.com/photo-1629992101753-56d196c8aabb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=390&q=80"
             alt="Photo of beautifully
-          arranged book"
-          />
+          arranged book" />
         </figure>
         <figure class="gallery-item">
-          <img
-            src="img/gallery/book3-brilliant brain.jpg"
-            alt="Photo of beautifully
-          arranged book"
-          />
+          <img src="img/gallery/book3-brilliant brain.jpg" alt="Photo of beautifully
+          arranged book" />
         </figure>
         <figure class="gallery-item">
-          <img
-            src="img/gallery/book4-chanakya Neeti.jpg"
-            alt="Photo of beautifully
-          arranged book"
-          />
+          <img src="img/gallery/book4-chanakya Neeti.jpg" alt="Photo of beautifully
+          arranged book" />
         </figure>
         <figure class="gallery-item">
-          <img
-            src="img/gallery/book5-power of subconsius mind.jpg"
-            alt="Photo of beautifully
-          arranged book"
-          />
+          <img src="img/gallery/book5-power of subconsius mind.jpg" alt="Photo of beautifully
+          arranged book" />
         </figure>
         <figure class="gallery-item">
-          <img
-            src="img/gallery/book6-the Alchemist.jpg"
-            alt="Photo of beautifully
-          arranged book"
-          />
+          <img src="img/gallery/book6-the Alchemist.jpg" alt="Photo of beautifully
+          arranged book" />
         </figure>
         <figure class="gallery-item">
-          <img
-            src="img/gallery/book7-Sherlock Holmes.jpg"
-            alt="Photo of beautifully
-          arranged book"
-          />
+          <img src="img/gallery/book7-Sherlock Holmes.jpg" alt="Photo of beautifully
+          arranged book" />
         </figure>
         <figure class="gallery-item">
-          <img
-            src="img/gallery/book8-Harry potter.jpg"
-            alt="Photo of beautifully
-          arranged book"
-          />
+          <img src="img/gallery/book8-Harry potter.jpg" alt="Photo of beautifully
+          arranged book" />
         </figure>
         <figure class="gallery-item">
-          <img
-            src="img/gallery/book9-The Girl in 105.jpg"
-            alt="Photo of beautifully
-          arranged book"
-          />
+          <img src="img/gallery/book9-The Girl in 105.jpg" alt="Photo of beautifully
+          arranged book" />
         </figure>
         <figure class="gallery-item">
-          <img
-            src="img/gallery/book-10 Arabian nights.jpg"
-            alt="Photo of beautifully
-          arranged book"
-          />
+          <img src="img/gallery/book-10 Arabian nights.jpg" alt="Photo of beautifully
+          arranged book" />
         </figure>
         <figure class="gallery-item">
-          <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRm6X9en98tcG6jz5vLv__6Tz9xw5-ByUWDrw&usqp=CAU"
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRm6X9en98tcG6jz5vLv__6Tz9xw5-ByUWDrw&usqp=CAU"
             alt="Photo of beautifully
-          arranged book"
-          />
+          arranged book" />
         </figure>
         <figure class="gallery-item">
-          <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThJb3xB8h3PLwhZfG9c_i1fZSasXqOmqGh3w&usqp=CAU"
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThJb3xB8h3PLwhZfG9c_i1fZSasXqOmqGh3w&usqp=CAU"
             alt="Photo of beautifully
-          arranged book"
-          />
+          arranged book" />
         </figure>
       </div>
     </section>
-    
+
 
     <!-- footer section -->
     <div class="flex ">
-        <div class="no-list-style ul li">
-            <ul class="">
-                <li><b>Open library</b></li>
-                <li> <a href ="" >Vision</a></li>
-                <li><a href ="">Volunteer</a></li>
-                <li><a href ="">Partner With us</a></li>
-                <li><a href ="">Careers</a></li>
-                <li><a href ="">Blog</a></li>
-                <li><a href ="">Terms of Service</a></li>
-                <li><a href ="">Donate</a></li> 
-            </ul>
-        </div>    
-        <div class=" no-list-style ul li">
-            <ul class="">
-                <li><b>Discover</b></li>
-                <li> <a href ="" >Home</a></li>
-                <li><a href ="">Books</a></li>
-                <li><a href ="">Authors</a></li>
-                <li><a href ="">Subjects</a></li>
-                <li><a href ="">Collections</a></li>
-                <li><a href ="">Advanced Search</a></li>
-                <li><a href ="">Return to Top</a></li> 
-            </ul>
-        </div>
-        <div class=" no-list-style ul li">
-            <ul class="">
-                <li><b>Develop</b></li>
-                <li> <a href ="" >Developer Center</a></li>
-                <li><a href ="">API Documentation</a></li>
-                <li><a href ="">Bulk Data Dumps</a></li>
-                <li><a href ="">Writing Bots</a></li>
-                <li><a href ="">Add a Book</a></li>
-                
-            </ul>
-        </div>
-        <div class=" no-list-style ul li">
-            <ul class="">
-                <li><b>Help</b></li>
-                <li> <a href ="" >Help Center</a></li>
-                <li><a href ="">Report A Problem</a></li>
-                <li><a href ="">Suggesting Editss</a></li>
-                <i class="fa-brands fa-twitter"></i>
-                <i class="fa-brands fa-github"></i>
+      <div class="no-list-style ul li">
+        <ul class="">
+          <li><b>Open library</b></li>
+          <li> <a href="">Vision</a></li>
+          <li><a href="">Volunteer</a></li>
+          <li><a href="">Partner With us</a></li>
+          <li><a href="">Careers</a></li>
+          <li><a href="">Blog</a></li>
+          <li><a href="">Terms of Service</a></li>
+          <li><a href="">Donate</a></li>
+        </ul>
+      </div>
+      <div class=" no-list-style ul li">
+        <ul class="">
+          <li><b>Discover</b></li>
+          <li> <a href="">Home</a></li>
+          <li><a href="">Books</a></li>
+          <li><a href="">Authors</a></li>
+          <li><a href="">Subjects</a></li>
+          <li><a href="">Collections</a></li>
+          <li><a href="">Advanced Search</a></li>
+          <li><a href="">Return to Top</a></li>
+        </ul>
+      </div>
+      <div class=" no-list-style ul li">
+        <ul class="">
+          <li><b>Develop</b></li>
+          <li> <a href="">Developer Center</a></li>
+          <li><a href="">API Documentation</a></li>
+          <li><a href="">Bulk Data Dumps</a></li>
+          <li><a href="">Writing Bots</a></li>
+          <li><a href="">Add a Book</a></li>
 
-                
-            </ul>
-        </div>
-        <div class=" no-list-style ul li ">
-            <ul class="">
-                <li><b>Change Website Language</b></li>
-                <li> <a href ="" >Čeština (cs)</a></li>
-                <li><a href ="">Deutsch (de)</a></li>
-                <li><a href ="">English (en)</a></li>
-                <li><a href ="">Español (es)</a></li>
-                <li><a href ="">Français (fr)</a></li>
-                <li><a href ="">Hrvatski (hr)</a></li>
-                <li><a href ="">తెలుగు (te)</a></li>
-    
-                
-            </ul>
-        </div>
+        </ul>
+      </div>
+      <div class=" no-list-style ul li">
+        <ul class="">
+          <li><b>Help</b></li>
+          <li> <a href="">Help Center</a></li>
+          <li><a href="">Report A Problem</a></li>
+          <li><a href="">Suggesting Editss</a></li>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-github"></i>
+
+
+        </ul>
+      </div>
+      <div class=" no-list-style ul li ">
+        <ul class="">
+          <li><b>Change Website Language</b></li>
+          <li> <a href="">Čeština (cs)</a></li>
+          <li><a href="">Deutsch (de)</a></li>
+          <li><a href="">English (en)</a></li>
+          <li><a href="">Español (es)</a></li>
+          <li><a href="">Français (fr)</a></li>
+          <li><a href="">Hrvatski (hr)</a></li>
+          <li><a href="">తెలుగు (te)</a></li>
+
+
+        </ul>
+      </div>
     </div>
-    <div class="position"> <i class="fa-solid fa-warehouse"></i> Open Library is an initiative of the  <a href="">Internet Archive</a> , a 501(c)(3) non-profit, building a digital library of Internet sites and other <br> cultural artifacts in digital form. Other <a href=""> projects</a> include the <a href="">Wayback Machine</a> , <a href="">archive.org</a>  and <a href="">archive-it.org</a> </div>
-            
+    <div class="position"> <i class="fa-solid fa-warehouse"></i> Open Library is an initiative of the <a
+        href="">Internet Archive</a> , a 501(c)(3) non-profit, building a digital library of Internet sites and other
+      <br> cultural artifacts in digital form. Other <a href=""> projects</a> include the <a href="">Wayback Machine</a>
+      , <a href="">archive.org</a> and <a href="">archive-it.org</a> </div>
 
-            
+
+
     <script src="script.js"></script>
 </body>
 
